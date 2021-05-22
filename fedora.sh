@@ -34,7 +34,7 @@ sudo dnf check-update
 sudo dnf install code
 
 # Install R and some packages
-sudo dnf install R openssl-devel libcurl-devel
+sudo dnf install R libcurl-devel openssl-devel
 Rscript -e "install.packages(c('devtools', 'tidyverse', 'tidymodels', 'rmarkdown', 'tinytex'))"
 Rscript -e "tinytext::install_tinytex()"
 
