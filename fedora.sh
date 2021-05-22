@@ -1,5 +1,5 @@
 # Remember to activate "gnome on Xorg" on the log screen!
-pip install -U poetry numpy scipy pandas statsmodels scikit-learn
+#
 
 # Upgrade already installed packages
 sudo dnf upgrade
@@ -26,7 +26,7 @@ flatpak install flathub \
     org.videolan.VLC
 
 # Install python packages
-#
+pip install -U poetry numpy scipy pandas statsmodels scikit-learn
 
 # Install R and some packages
 sudo dnf install R libcurl-devel openssl-devel
