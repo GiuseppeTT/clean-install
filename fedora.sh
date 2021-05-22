@@ -1,3 +1,6 @@
+# Remember to activate "gnome on Xorg" on the log screen!
+#
+
 # Upgrade already installed packages
 sudo dnf upgrade
 
@@ -22,10 +25,21 @@ flatpak install flathub \
     com.transmissionbt.Transmission \
     org.videolan.VLC
 
-# Install R and Rstudio and some packages
-sudo dnf install R rstudio-desktop openssl-devel libcurl-devel
-Rscript -e "install.packages('tidyverse', 'tidymodels', 'tidytext', 'lubridate', 'readxl', 'rmarkdown', 'shiny', 'tinytex', 'renv', 'drake')"
+# Install VSCode
+# https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+sudo dnf check-update
+sudo dnf install code
+
+# Install R and some packages
+sudo dnf install R openssl-devel libcurl-devel
+Rscript -e "install.packages(c('devtools', 'tidyverse', 'tidymodels', 'rmarkdown', 'tinytex'))"
 Rscript -e "tinytext::install_tinytex()"
+
+# Install RStudio
+# Uncomment \/
+#sudo dnf install rstudio-desktop
 
 # Install docker and add sudo priveldge
 # https://docs.docker.com/engine/install/fedora/
