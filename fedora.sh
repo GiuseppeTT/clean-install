@@ -59,6 +59,7 @@ sudo dnf config-manager \
 sudo dnf install docker-ce docker-ce-cli containerd.io
 sudo systemctl start docker
 sudo docker run hello-world
+
 sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
