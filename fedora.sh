@@ -1,5 +1,5 @@
 # Remember to activate "gnome on Xorg" on the log screen!
-#
+pip install -U poetry numpy scipy pandas statsmodels scikit-learn
 
 # Upgrade already installed packages
 sudo dnf upgrade
