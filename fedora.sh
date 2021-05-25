@@ -1,7 +1,7 @@
-# Remember to activate "gnome on Xorg" on the log screen!
+# Remember to activate "gnome on Xorg" on the login screen!
 #
 
-# Upgrade already installed packages
+# Run first upgrade for already installed packages
 sudo dnf upgrade
 
 # Force alt + tab to switch only on current workspace in GNOME shell
@@ -20,17 +20,25 @@ sudo dnf install gnome-tweaks materia-gtk-theme papirus-icon-theme
 
 # Install flatpackages
 flatpak install flathub \
-    org.gnome.Extensions \ 
     com.spotify.Client \
     com.transmissionbt.Transmission \
-    org.videolan.VLC
+    org.gnome.Extensions \ 
+    org.videolan.VLC \
+    org.zotero.Zotero
 
 # Install python packages
-pip install -U poetry numpy scipy pandas statsmodels scikit-learn
+pip install -U \
+    poetry \
+    numpy \
+    scipy \
+    pandas \
+    matplotlib \
+    statsmodels \
+    scikit-learn
 
 # Install R and some packages
 sudo dnf install R libcurl-devel openssl-devel
-Rscript -e "install.packages(c('devtools', 'tidyverse', 'tidymodels', 'rmarkdown', 'tinytex'))"
+Rscript -e "install.packages(c('devtools', 'tidyverse', 'gt', 'rmarkdown', 'tinytex', 'tidymodels', 'shiny', 'targets'))"
 Rscript -e "tinytex::install_tinytex()"
 
 # Install RStudio
