@@ -1,6 +1,3 @@
-# Remember to activate "gnome on Xorg" on the login screen!
-#
-
 # Run first upgrade for already installed packages
 sudo dnf upgrade
 
@@ -27,8 +24,8 @@ flatpak install flathub \
     org.zotero.Zotero
 
 # Install python packages
+pip install --upgrade pip
 pip install -U \
-    poetry \
     numpy \
     scipy \
     pandas \
