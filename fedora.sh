@@ -21,7 +21,8 @@ flatpak install flathub \
     com.transmissionbt.Transmission \
     org.gnome.Extensions \ 
     org.videolan.VLC \
-    org.zotero.Zotero
+    org.zotero.Zotero \
+    us.zoom.Zoom
 
 # Install python packages
 pip install --upgrade pip
