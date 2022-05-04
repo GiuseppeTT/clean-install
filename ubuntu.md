@@ -27,6 +27,19 @@ sudo snap install slack
 
 ## Install python
 
+```
+sudo apt install python-is-python3
+sudo apt install python3-pip
+pip install --upgrade pip
+pip install -U \
+    numpy \
+    scipy \
+    pandas \
+    matplotlib \
+    statsmodels \
+    scikit-learn
+```
+
 ## Install R
 
 ## Install docker
