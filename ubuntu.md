@@ -45,7 +45,14 @@ pip install -U \
 ### R
 
 ```
-sudo apt install r-base
+sudo apt install r-base libxml2-dev libssl-dev
+```
+
+In `R` console
+
+```
+install.packages(c('devtools', 'tidyverse', 'gt', 'rmarkdown', 'tinytex', 'tidymodels', 'shiny', 'targets'))
+tinytex::install_tinytex()
 ```
 
 ### For VSCode
