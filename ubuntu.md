@@ -51,7 +51,7 @@ pip install -U \
 ### R
 
 ```
-sudo apt install r-base libxml2-dev libssl-dev
+sudo apt install r-base libxml2-dev libssl-dev libcurl4-openssl-dev
 ```
 
 In `R` console
