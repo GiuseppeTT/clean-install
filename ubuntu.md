@@ -59,4 +59,6 @@ sudo apt install r-base
 
 ### Change settings
 
-`Settings` > `Appearance`
+`Settings` > `Appearance` > `Dock` > Change everything : )
+
+`Settings` > `Multitasking` > `Include applications from the current workspace only`
