@@ -42,10 +42,21 @@ pip install -U \
 
 ## Install R
 
+### R
+
+```
+sudo apt install r-base
+```
+
+### For VSCode
+
+```
+```
+
 ## Install docker
 
 ## Configure
 
-### Clean dock
+### Change settings
 
-### Chnage settings
+`Settings` > `Appearance`
