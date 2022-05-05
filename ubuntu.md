@@ -15,6 +15,12 @@ sudo apt update
 sudo apt upgrade
 ```
 
+## Change theme
+
+```
+sudo apt install gnome-tweaks materia-gtk-theme papirus-icon-theme
+```
+
 ## Install programs
 
 ### Snap
