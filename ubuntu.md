@@ -64,7 +64,13 @@ tinytex::install_tinytex()
 ### For VSCode
 
 ```
+pip install -U radian
+Rscript -e 'devtools::install_github("REditorSupport/languageserver")'
 ```
+
+### For RStudio
+
+Link: https://www.rstudio.com/products/rstudio/download/#download
 
 ## Install docker
 
