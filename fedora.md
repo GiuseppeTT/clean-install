@@ -68,3 +68,9 @@ flatpak install flathub \
     org.zotero.Zotero \                # Zotero
     us.zoom.Zoom                       # Zoom
 ```
+
+## Setup python
+
+## Setup R
+
+## Setup docker
