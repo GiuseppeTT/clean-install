@@ -169,6 +169,8 @@ docker run hello-world  # For checking if everything is alright
 
 ## Extras
 
+### Settings and Gnome Tweaks
+
 - Change style to dark in `Settings` > `Appearance` > `Style`
 - Disable hot corner in `Settings` > `Multitasking` > `General`
 - Fix `Alt + Tab` to workspace in `Settings` > `Multitasking` > `Application Switching`
@@ -178,3 +180,5 @@ docker run hello-world  # For checking if everything is alright
 - Enable fingerprint in `Settings` > `Users`
 - Change icon theme in `Gnome Tweaks` > `Appearance`
 - Add weekday to topbar in `Gnome Tweaks` > `Top Bar`
+
+### Dock app order
