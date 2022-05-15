@@ -195,7 +195,7 @@ docker run hello-world  # For checking if everything is alright
 - Enable fingerprint in `Settings` > `Users`
 - Change default applications in `Settings` > `Default Applications`
 - Change icon theme in `Gnome Tweaks` > `Appearance`
-- Add weekday to topbar in `Gnome Tweaks` > `Top Bar`
+- Add weekday to top bar in `Gnome Tweaks` > `Top Bar`
 - Enable dash to dock in `Extensions`
 
 ### Dock app order
