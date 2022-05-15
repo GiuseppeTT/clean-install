@@ -198,9 +198,9 @@ docker run hello-world  # For checking if everything is alright
 - Add weekday to top bar in `Gnome Tweaks` > `Top Bar`
 - Enable dash to dock in `Extensions`
 
-### Dock app order
+### Dash app order
 
-Order the apps on dock like:
+Order the apps on dash like:
 
 - Chrome
 - Files
