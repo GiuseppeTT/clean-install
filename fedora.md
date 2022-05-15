@@ -49,7 +49,7 @@ sudo dnf install gnome-console gnome-shell-extension-dash-to-dock gnome-tweaks p
 
 ## Install flatpaks
 
-> Based on https://flatpak.org/setup/Fedora
+> **Note:** Based on https://flatpak.org/setup/Fedora
 
 Add the Flathub remote:
 
@@ -73,7 +73,7 @@ flatpak install flathub
 
 ## Setup VSCode
 
-> Based on https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
+> **Note:** Based on https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
 
 Install VSCode:
 
@@ -113,7 +113,7 @@ pip install -U \
 
 ## Setup R
 
-> For the VSCode part, it is based on https://code.visualstudio.com/docs/languages/r
+> **Note:** For the VSCode part, it is based on https://code.visualstudio.com/docs/languages/r
 
 Install R and other dependencies:
 
@@ -123,7 +123,7 @@ sudo dnf install R libcurl-devel openssl-devel
 
 On R console, install packages:
 
-> First time needs to run on R console to create and use personal library
+> **Note:** First time needs to run on R console to create and use personal library
 
 ```R
 install.packages(c(
@@ -166,7 +166,7 @@ sudo dnf install rstudio-desktop
 
 ## Setup docker
 
-> Based on https://docs.docker.com/engine/install/fedora/ and https://docs.docker.com/engine/install/linux-postinstall/
+> **Note:** Based on https://docs.docker.com/engine/install/fedora/ and https://docs.docker.com/engine/install/linux-postinstall/
 
 Install docker using the convenience script:
 
@@ -183,7 +183,7 @@ sudo groupadd docker
 sudo usermod -aG docker $USER
 newgrp docker
 docker run hello-world  # For checking if everything is alright
-``` 
+```
 
 ## Extras
 
