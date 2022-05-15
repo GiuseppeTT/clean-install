@@ -77,4 +77,5 @@ flatpak install flathub \
 
 ## Extras
 
-### Change to dark theme
+- Change to dark theme
+- Add fingerprint authentication
