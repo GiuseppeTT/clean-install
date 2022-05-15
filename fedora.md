@@ -229,3 +229,17 @@ Order the pinned tabs on chrome as follows:
 - Notion
 - Stat email
 - Spotify
+
+### R bayes packages
+
+Install R bayes packages:
+
+```bash
+Rscript -e "install.packages(c('brms', 'cmdstanr', 'rstan', 'tidybayes'))"
+```
+
+Install cmdstan:
+
+```bash
+Rscript -e "install_cmdstan()"
+```
