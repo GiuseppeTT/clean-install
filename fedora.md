@@ -65,6 +65,7 @@ flatpak install flathub
     com.slack.Slack                  # Slack
     com.transmissionbt.Transmission  # For torrenting
     org.gnome.Extensions             # Gnome extensions
+    org.gtk.Gtk3theme.Adwaita-dark   # Adwaita-dark theme
     org.videolan.VLC                 # VLC
     org.zotero.Zotero                # Zotero
     us.zoom.Zoom                     # Zoom
