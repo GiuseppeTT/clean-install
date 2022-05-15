@@ -74,3 +74,7 @@ flatpak install flathub \
 ## Setup R
 
 ## Setup docker
+
+## Extras
+
+### Change to dark theme
