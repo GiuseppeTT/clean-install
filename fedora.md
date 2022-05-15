@@ -110,6 +110,7 @@ On R console, install packages:
 
 ```R
 install.packages(c(
+    "BiocManager",
     "bookdown",
     "devtools",
     "gt",
