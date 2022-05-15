@@ -74,7 +74,7 @@ flatpak install flathub
 
 > Based on https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
 
-Install VSCode
+Install VSCode:
 
 ```
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
@@ -186,6 +186,8 @@ docker run hello-world  # For checking if everything is alright
 
 ### Settings and Gnome Tweaks
 
+Do the following:
+
 - Change style to dark in `Settings` > `Appearance` > `Style`
 - Disable hot corner in `Settings` > `Multitasking` > `General`
 - Fix `Alt + Tab` to workspace in `Settings` > `Multitasking` > `Application Switching`
@@ -219,8 +221,8 @@ Order the apps on dash as follows:
 
 Order the pinned tabs on chrome as follows:
 
-- gmail
-- google calendar
-- notion
-- stat email
-- spotify
+- Gmail
+- Google calendar
+- Notion
+- Stat email
+- Spotify
