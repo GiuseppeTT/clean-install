@@ -107,7 +107,7 @@ sudo dnf install R libcurl-devel openssl-devel
 Install packages:
 
 ```bash
-Rscript -e "install.packages(c('devtools', 'gt', 'rmarkdown', 'shiny', 'targets', 'tidymodels', 'tidyverse', 'tinytex'))"
+Rscript -e "install.packages(c('bookdown', 'devtools', 'gt', 'rmarkdown', 'shiny', 'targets', 'tidymodels', 'tidyverse', 'tinytex'))"
 ```
 
 Install tinytex:
