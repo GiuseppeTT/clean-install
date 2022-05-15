@@ -201,7 +201,7 @@ docker run hello-world  # For checking if everything is alright
 
 ### Dash app order
 
-Order the apps on dash like:
+Order the apps on dash as follows:
 
 - Chrome
 - Files
@@ -214,3 +214,13 @@ Order the apps on dash like:
 - Transmission
 - VLC
 - System monitor
+
+### Chrome pinned tabs order
+
+Order the pinned tabs on chrome as follows:
+
+- gmail
+- google calendar
+- notion
+- stat email
+- spotify
