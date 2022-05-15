@@ -1,6 +1,6 @@
 # Fedora clean install
 
-## Initial setup window
+## Initial setup
 
 Go through the initial setup window. This is important to enable third party repositories.
 
@@ -24,7 +24,7 @@ defaultyes=True
 keepcache=True
 ```
 
-## Flatpaks
+## Install flatpaks
 
 > Based on https://flatpak.org/setup/Fedora
 
