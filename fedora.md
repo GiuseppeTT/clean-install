@@ -58,15 +58,15 @@ flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flat
 Install flatpaks:
 
 ```bash
-flatpak install flathub \
-    com.google.Chrome \                # Google chrome
-    com.slack.Slack \                  # Slack
-    com.transmissionbt.Transmission \  # For torrenting
-    com.visualstudio.code              # VSCode
-    org.gnome.Extensions \             # Gnome extensions
-    org.videolan.VLC \                 # VLC
-    org.zotero.Zotero \                # Zotero
-    us.zoom.Zoom                       # Zoom
+flatpak install flathub
+    com.google.Chrome                # Google chrome
+    com.slack.Slack                  # Slack
+    com.transmissionbt.Transmission  # For torrenting
+    com.visualstudio.code            # VSCode
+    org.gnome.Extensions             # Gnome extensions
+    org.videolan.VLC                 # VLC
+    org.zotero.Zotero                # Zotero
+    us.zoom.Zoom                     # Zoom
 ```
 
 ## Setup python
