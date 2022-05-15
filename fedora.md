@@ -199,3 +199,17 @@ docker run hello-world  # For checking if everything is alright
 - Enable dash to dock in `Extensions`
 
 ### Dock app order
+
+Order the apps on dock like:
+
+- Chrome
+- Files
+- PDF reader
+- Slack
+- Zoom
+- Terminal
+- VSCode
+- Zotero
+- Transmission
+- VLC
+- System monitor
