@@ -112,6 +112,8 @@ pip install -U \
 
 ## Setup R
 
+> For the VSCode part, it is based on https://code.visualstudio.com/docs/languages/r
+
 Install R and other dependencies:
 
 ```bash
