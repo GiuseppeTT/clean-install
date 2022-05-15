@@ -204,7 +204,7 @@ Do the following:
 - Enable dash to dock in `Extensions`
 - Sync VSCode to GitHub to import settings and extensions from cloud
 
-### Dash app order
+### Order dash apps
 
 Order the apps on dash as follows:
 
@@ -220,7 +220,7 @@ Order the apps on dash as follows:
 - VLC
 - System monitor
 
-### Chrome pinned tabs order
+### Order chrome pinned tabs
 
 Order the pinned tabs on chrome as follows:
 
@@ -230,7 +230,16 @@ Order the pinned tabs on chrome as follows:
 - Stat email
 - Spotify
 
-### R bayes packages
+### Configure git
+
+Configure git:
+
+```bash
+git config --global user.name "GiuseppeTT"
+git config --global user.email giu.tinti@gmail.com
+```
+
+### Install R bayes packages
 
 Install R bayes packages:
 
