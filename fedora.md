@@ -64,11 +64,24 @@ flatpak install flathub
     com.google.Chrome                # Google chrome
     com.slack.Slack                  # Slack
     com.transmissionbt.Transmission  # For torrenting
-    com.visualstudio.code            # VSCode
     org.gnome.Extensions             # Gnome extensions
     org.videolan.VLC                 # VLC
     org.zotero.Zotero                # Zotero
     us.zoom.Zoom                     # Zoom
+```
+
+## Setup VSCode
+
+> Based on https://code.visualstudio.com/docs/setup/linux#_rhel-fedora-and-centos-based-distributions
+
+Install VSCode
+
+```
+sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
+sudo sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo'
+
+dnf check-update
+sudo dnf install code
 ```
 
 ## Setup python
