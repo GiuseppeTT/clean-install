@@ -84,7 +84,7 @@ Update pip:
 pip install --upgrade pip
 ```
 
-Install python packages
+Install python packages:
 
 ```bash
 pip install -U \
@@ -104,19 +104,23 @@ Install R and other dependencies:
 sudo dnf install R libcurl-devel openssl-devel
 ```
 
-Install packages
+Install packages:
 
 ```bash
 Rscript -e "install.packages(c('devtools', 'gt', 'rmarkdown', 'shiny', 'targets', 'tidymodels', 'tidyverse', 'tinytex'))"
 ```
 
-Install tinytex
+Install tinytex:
 
 ```bash
 Rscript -e "tinytex::install_tinytex()"
 ```
 
-> For installing RStudio, you can use `sudo dnf install rstudio-desktop`
+Install RStudio
+
+```bash
+sudo dnf install rstudio-desktop
+```
 
 ## Setup docker
 
