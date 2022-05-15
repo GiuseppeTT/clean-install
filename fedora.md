@@ -39,10 +39,11 @@ sudo dnf update
 Install packages:
 
 ```
+# New console
 # Gnome additional settings
 # `materia-gtk-theme` is not working in Gnome 42
 # Icon theme
-sudo dnf install gnome-tweaks papirus-icon-theme
+sudo dnf install gnome-console gnome-tweaks papirus-icon-theme
 ```
 
 ## Install flatpaks
@@ -70,6 +71,30 @@ flatpak install flathub
 ```
 
 ## Setup python
+
+Install pip:
+
+```bash
+sudo dnf install python3-pip
+```
+
+Update pip:
+
+```bash
+pip install --upgrade pip
+```
+
+Install python packages
+
+```bash
+pip install -U \
+    numpy \
+    scipy \
+    pandas \
+    matplotlib \
+    statsmodels \
+    scikit-learn
+```
 
 ## Setup R
 
