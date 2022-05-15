@@ -39,10 +39,10 @@ sudo dnf update
 Install packages:
 
 ```
-sudo dnf install \
-    gnome-tweaks \         # Gnome additional settings
-    # materia-gtk-theme \  # Not working in Gnome 42
-    papirus-icon-theme     # Icon theme
+# Gnome additional settings
+# `materia-gtk-theme` is not working in Gnome 42
+# Icon theme
+sudo dnf install gnome-tweaks papirus-icon-theme
 ```
 
 ## Install flatpaks
