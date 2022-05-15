@@ -197,6 +197,7 @@ docker run hello-world  # For checking if everything is alright
 - Change icon theme in `Gnome Tweaks` > `Appearance`
 - Add weekday to top bar in `Gnome Tweaks` > `Top Bar`
 - Enable dash to dock in `Extensions`
+- Sync VSCode to GitHub to import settings and extensions from cloud
 
 ### Dash app order
 
