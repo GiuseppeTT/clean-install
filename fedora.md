@@ -77,6 +77,12 @@ flatpak install flathub \
 
 ## Extras
 
-- Change to dark theme
-- Change icon theme
-- Add fingerprint authentication
+- Change style to dark in `Settings` > `Appearance` > `Style`
+- Disable hot corner in `Settings` > `Multitasking` > `General`
+- Fix `Alt + Tab` to workspace in `Settings` > `Multitasking` > `Application Switching`
+- Activate night light in `Settings` > `Displays`
+- Activate tap to click in `Settings` > `Touchpad`
+- Set compose key to `right alt` in `Settings` > `Keyboard` > `Special Character Entry`
+- Enable fingerprint in `Settings` > `Users`
+- Change icon theme in `Gnome Tweaks` > `Appearance`
+- Add weekday to topbar in `Gnome Tweaks` > `Top Bar`
