@@ -106,6 +106,8 @@ sudo dnf install R libcurl-devel openssl-devel
 
 On R console, install packages:
 
+> First time needs to run on R console to create and use personal library
+
 ```R
 install.packages(c(
     "bookdown",
@@ -126,7 +128,19 @@ Install tinytex:
 Rscript -e "tinytex::install_tinytex()"
 ```
 
-Install RStudio
+Install radian:
+
+```bash
+pip install -U radian
+```
+
+Install R language server (for VSCode):
+
+```bash
+Rscript -e 'devtools::install_github("REditorSupport/languageserver")'
+```
+
+Install RStudio:
 
 ```bash
 sudo dnf install rstudio-desktop
