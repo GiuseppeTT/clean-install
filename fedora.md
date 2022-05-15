@@ -28,23 +28,34 @@ keepcache=True
 
 Update system for the first time.
 
-Run
+Update system:
 
 ```bash
 sudo dnf update
+```
+
+## Install packages
+
+Install packages:
+
+```
+sudo dnf install \
+    gnome-tweaks \         # Gnome additional settings
+    # materia-gtk-theme \  # Not working in Gnome 42
+    papirus-icon-theme     # Icon theme
 ```
 
 ## Install flatpaks
 
 > Based on https://flatpak.org/setup/Fedora
 
-Add the Flathub remote
+Add the Flathub remote:
 
 ```bash
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
-Install flatpaks
+Install flatpaks:
 
 ```bash
 flatpak install flathub \
