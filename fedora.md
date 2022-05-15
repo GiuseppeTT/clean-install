@@ -39,11 +39,12 @@ sudo dnf update
 Install packages:
 
 ```
-# New console
+# Gnome new console
 # Gnome additional settings
+# Dash to dock extension
 # `materia-gtk-theme` is not working in Gnome 42
 # Icon theme
-sudo dnf install gnome-console gnome-tweaks papirus-icon-theme
+sudo dnf install gnome-console gnome-shell-extension-dash-to-dock gnome-tweaks papirus-icon-theme
 ```
 
 ## Install flatpaks
@@ -181,5 +182,6 @@ docker run hello-world  # For checking if everything is alright
 - Enable fingerprint in `Settings` > `Users`
 - Change icon theme in `Gnome Tweaks` > `Appearance`
 - Add weekday to topbar in `Gnome Tweaks` > `Top Bar`
+- Enable dash to dock in `Extensions`
 
 ### Dock app order
