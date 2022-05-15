@@ -244,11 +244,12 @@ git config --global user.email giu.tinti@gmail.com
 Install R bayes packages:
 
 ```bash
-Rscript -e "install.packages(c('brms', 'cmdstanr', 'rstan', 'tidybayes'))"
+Rscript -e "install.packages(c('brms', 'rstan', 'tidybayes'))"
 ```
 
-Install cmdstan:
+Install cmdstanr:
 
 ```bash
+Rscript -e "remotes::install_github('stan-dev/cmdstanr')"
 Rscript -e "install_cmdstan()"
 ```
