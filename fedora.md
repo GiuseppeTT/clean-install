@@ -98,6 +98,26 @@ pip install -U \
 
 ## Setup R
 
+Install R and other dependencies:
+
+```bash
+sudo dnf install R libcurl-devel openssl-devel
+```
+
+Install packages
+
+```bash
+Rscript -e "install.packages(c('devtools', 'gt', 'rmarkdown', 'shiny', 'targets', 'tidymodels', 'tidyverse', 'tinytex'))"
+```
+
+Install tinytex
+
+```bash
+Rscript -e "tinytex::install_tinytex()"
+```
+
+> For installing RStudio, you can use `sudo dnf install rstudio-desktop`
+
 ## Setup docker
 
 ## Extras
