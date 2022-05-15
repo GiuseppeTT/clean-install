@@ -148,6 +148,25 @@ sudo dnf install rstudio-desktop
 
 ## Setup docker
 
+> Based on https://docs.docker.com/engine/install/fedora/ and https://docs.docker.com/engine/install/linux-postinstall/
+
+Install docker using the convenience script:
+
+```bash
+cd Downloads
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
+```
+
+Enable docker for non-privileged users:
+
+```bash
+sudo groupadd docker
+sudo usermod -aG docker $USER
+newgrp docker
+docker run hello-world  # For checking if everything is alright
+``` 
+
 ## Extras
 
 - Change style to dark in `Settings` > `Appearance` > `Style`
