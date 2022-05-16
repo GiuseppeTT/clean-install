@@ -226,10 +226,10 @@ Order the apps on dash as follows:
 
 Order the pinned tabs on chrome as follows:
 
-- Gmail
 - Google calendar
-- Notion
+- Gmail
 - Stat email
+- Notion
 - Spotify
 
 ### Configure git
