@@ -4,6 +4,8 @@
 
 Go through the initial setup window. This is important to enable third party repositories.
 
+> **Note:** If you skip the initial setup window, you can use https://docs.fedoraproject.org/en-US/quick-docs/setup_rpmfusion/ or https://rpmfusion.org/Configuration/ to enable third party repositories.
+
 ## Configure DNF
 
 Change DNF configuration for faster download.
