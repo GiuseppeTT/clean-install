@@ -256,3 +256,27 @@ Install cmdstanr:
 Rscript -e "remotes::install_github('stan-dev/cmdstanr')"
 Rscript -e "install_cmdstan()"
 ```
+
+### Update everything one more time
+
+Update system:
+
+```bash
+sudo dnf upgrade
+```
+
+Update flatpaks:
+
+```bash
+flatpak update
+```
+
+Update R packages (on R console):
+
+```R
+update.packages()
+```
+
+Update python packages:
+
+There is no easy way 🤷
