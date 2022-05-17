@@ -108,6 +108,7 @@ pip install -U \
     numpy \
     scipy \
     pandas \
+    poetry \
     matplotlib \
     statsmodels \
     scikit-learn
