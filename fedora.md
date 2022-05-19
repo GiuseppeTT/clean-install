@@ -158,7 +158,7 @@ pip install -U radian
 Install R language server (for VSCode):
 
 ```bash
-Rscript -e 'devtools::install_github("REditorSupport/languageserver")'
+Rscript -e "devtools::install_github('REditorSupport/languageserver')"
 ```
 
 Install RStudio:
