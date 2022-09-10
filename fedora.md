@@ -237,7 +237,7 @@ Order the pinned tabs on chrome as follows:
 - Gmail
 - Stat email
 - Notion
-- Spotify
+- YouTube music
 
 ### Configure git
 
