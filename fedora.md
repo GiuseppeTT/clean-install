@@ -167,6 +167,12 @@ Install RStudio:
 sudo dnf install rstudio-desktop
 ```
 
+## Setup quarto
+
+> **Note:** Based on https://docs.rstudio.com/resources/install-quarto/#quarto-tar-file-install and remember to use `linux-rhel7-amd64.tar.gz` instead of `linux-amd64.tar.gz`
+
+TODO.
+
 ## Setup docker
 
 > **Note:** Based on https://docs.docker.com/engine/install/fedora/ and https://docs.docker.com/engine/install/linux-postinstall/
@@ -279,4 +285,4 @@ update.packages()
 
 Update python packages:
 
-There is no easy way 🤷
+There is no easy way 🤷 but you can check outdated packages with `pip list --outdated` and conflicts with `pip check`.
