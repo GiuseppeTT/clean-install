@@ -286,3 +286,7 @@ update.packages()
 Update python packages:
 
 There is no easy way 🤷 but you can check outdated packages with `pip list --outdated` and conflicts with `pip check`.
+
+### Install AppImageLauncher
+
+TODO: https://github.com/TheAssassin/AppImageLauncher
